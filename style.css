@@ -1,0 +1,1183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav1{
+    height: 6%;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+}
+#left img{
+    height: 30px;
+    width: 90%;
+}
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 22px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-family: arial;
+}
+a{  
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+#nav-2{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+}
+#left2 img{
+    height: 80px;
+    width: 90%;
+}
+#center2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;   
+    font-family: arial;
+    font-weight: 100;
+    padding-left: 20%;
+}
+#right2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 22px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-family: arial;
+}
+#right2 i{
+    font-size: 30px;
+
+}
+#right2 input{
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(244, 244, 244);
+    color: black;
+    font-size: 16px;
+    padding-left: 50px;
+}
+#search i{
+    position: absolute;
+    left: 74.8%;
+    top: 67px;
+}
+#nav-3{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color:  rgb(248, 248, 248);
+}
+#nav-3 h3{
+    font-weight: 100;
+    padding-top: 10px;  
+}
+#nav-3 a{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    line-height: 40px;
+    text-decoration: underline;
+}
+#main{
+    min-height: 100%;
+    width: 100%;
+}
+#nav{
+    display: none;
+}
+#box-1{
+    height: 70vh;
+    margin-left: 3.5vw;
+    width: 93%;
+    position: relative;
+    /* background-color: black; */
+}
+#box-1 #video{
+    height: 100%;
+    width: 100%;
+}
+#box-1 video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#box-2{
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+}
+#box-2 h1{
+    font-size: 1.3em;
+    font-family: arial;
+    color: black;
+    font-weight: 100;
+    padding-top: 2vw;
+}
+#box-2 h2{
+    font-size: 4em;
+    font-weight: 900;
+    font-family:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+}
+#box-2 h3{
+    font-size: 1.4em;
+    font-weight: 100;
+}
+#box-2 button{
+    padding: 0.6vw 1.6vw;
+    font-size: 1.2em;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2em;
+    margin-top: 36vw;
+    margin-right: -35vw;
+    text-align: center;
+}
+#box-2 button:hover{
+    background-color: grey;
+    color: white;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+#box-3{
+    height: 6vh;
+    width: 100%;
+}
+#box-3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9em;
+    padding-left: 5vw;
+    font-weight: 100;
+}
+.box-4{
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    padding:4.5vw;
+    padding-top: 1vw;
+}
+.scroll-img{
+    margin: 0 0.5vw;
+    position: relative;
+    text-align: center;
+}
+.scroll-img img {
+    width: 32vw;
+    height:83vh;
+}
+.scroll-text {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    padding-right: 7vw;
+    padding-bottom: 5vw;
+    color: white;
+    font-size: 1.8em;
+    font-family: arial;
+}
+.Sabrina{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    padding-right: 22vw;
+    padding-bottom: 5vw;
+    color: white;
+    font-size: 1.8em;
+    font-family: arial;
+}
+.Giannis{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    padding-right: 12vw;
+    padding-bottom: 5vw;
+    color: white;
+    font-size: 1.8em;
+    font-family: arial;
+}
+.Easy{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    padding-right: 22vw;
+    padding-bottom: 5vw;
+    color: white;
+    font-size: 1.8em;
+    font-family: arial;
+}
+button{
+    padding: 0.6vw 1.2vw;
+    background-color: rgb(255, 252, 252);
+    color: black;
+    border-radius: 2em;
+    border: none;
+    font-size: 0.6em;
+    position: absolute;
+    top: 50%;
+    right: 80%;
+}
+button:hover{
+    background-color: rgb(196, 196, 196);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+#box-5{
+    height: 20vh;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+#box-5 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    padding-left: 2.2vw;
+    font-weight: 100;
+    padding-top:3vw;
+}
+#box-6{
+    height: 25vh;
+    width: 100%;
+}
+#pic6{
+    height: 100%;
+    width: 100%;
+}
+#pic6 img{
+    height: 40vh;
+    margin: 0.1vw;
+    width: 19%;
+    padding-bottom:3vw;
+    padding-left: 2vw;
+}
+#box-7{
+    height: 20vh;
+    width: 100%;
+    /* background-color: pink; */
+}
+#box-7 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    padding-left: 3vw;
+    font-weight: 100;
+    padding-top: 7vw;
+}
+#box-8{
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    /* background-color: #f0f0f0; */
+    padding:2vw;
+    padding-top: 1vw;
+}
+#pic8 img{
+    margin: 0 0.5vw;
+    text-align: center;
+}
+#pic8 img {
+    width: 32vw;
+    height:45vh;
+}
+.button8{
+    position: absolute;
+    bottom: 90px;
+    left: 12%;
+    bottom: 25%;
+    width: 100%;
+    color: white;
+    font-size: 1.8em;
+    font-family: arial;
+    position: relative;
+}
+.button8 button{
+    padding: 0.8vw 1.5vw;
+    background-color: white;
+    color: black;
+    font-size: 0.6em;
+    border-radius: 4vw;
+}
+button:hover{
+    background-color: rgb(196, 196, 196);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+#box-9{
+    height: 20vh;
+    width: 100%;
+    /* background-color: pink; */
+}
+#box-9 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    padding-left: 3vw;
+    font-weight: 100;
+    padding-top: 6vw;
+}
+#box-10{
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    /* background-color: #f0f0f0; */
+    padding:2vw;
+    padding-top: 1vw;
+}
+#pic10 img{
+    height: 50vh;
+    margin: 1vw;
+    margin-top: -1vw;
+}
+#text10 h1{
+    font-family: arial;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-left: 1vw;
+    margin-top: 0.3em;
+}
+#text10 p{
+    font-family: arial;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-left: 1vw;
+    margin-top: 0.4em;
+    color: grey;
+}
+#text10 h2{
+    font-family: arial;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-left: 1vw;
+    margin-top: 0.7em;
+}
+#box-11 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9em;
+    padding-left: 3vw;
+    font-weight: 100;
+    padding-top: 6vw;
+}
+#box-13{
+    height: 100vh;
+    width: 95%;
+    margin: 2vw;
+}
+#box-13 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box-14{
+    height: 27vh;
+    width: 100%;
+    text-align: center;
+}
+#box-14 h1{
+    font-size: 1.3em;
+    font-family: arial;
+    color: black;
+    font-weight: 100;
+    padding-top: 2vw;
+}
+#box-14 h2{
+    font-size: 4em;
+    font-weight: 900;
+    font-family:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+}
+#box-14 h3{
+    font-size: 1.4em;
+    font-weight: 100;
+}
+.Shop{
+    padding: 0.6vw 1.6vw;
+    font-size: 1.2em;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2em;
+    margin-top: 263vw;
+    margin-right: -33vw;
+}
+#box-14 button:hover{
+    background-color: grey;
+    color: white;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+#box-15{
+    height: 20vh;
+    width: 100%;
+    /* background-color: pink; */
+}
+#box-15 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9em;
+    padding-left: 3vw;
+    font-weight: 100;
+    padding-top: 6vw;
+}
+#box-16{
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    height: 90%;
+    overflow-y: hidden;
+    position: relative;
+}
+#pic16 img{
+    width: 32vw;
+    height:80vh;
+    margin-left: 2vw;
+}
+#pic16:first-child img{
+    margin-left: 2.9vw;
+}
+#pic16 h1{
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: arial;
+    bottom: 35%;
+    margin-left: 6vw;
+    font-weight: 100;
+}
+#pic16 h2{
+    font-size: 1.9em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: arial;
+    bottom: 28%;
+    margin-left: 6vw;
+    font-weight: 100;
+}
+#Customise{
+    padding: 0.8vw 1.2vw;
+    background-color: rgb(255, 252, 252);
+    color: black;
+    border-radius: 2em;
+    border: none;
+    font-size: 1em;
+    margin-top: 11vw;
+    margin-right: 7vw;
+}
+#Shop{
+    padding: 0.8vw 1.2vw;
+    background-color: rgb(255, 252, 252);
+    color: black;
+    border-radius: 2em;
+    border: none;
+    font-size: 1em;
+    margin-top: 11vw;
+    margin-right: -26vw;
+}
+#Learn{
+    padding: 0.8vw 1.2vw;
+    background-color: rgb(255, 252, 252);
+    color: black;
+    border-radius: 2em;
+    border: none;
+    font-size: 1em;
+    margin-top: 11vw;
+    margin-right: -62vw;
+}
+#Celebrate{
+    padding: 0.8vw 1.2vw;
+    background-color: rgb(255, 252, 252);
+    color: black;
+    border-radius: 2em;
+    border: none;
+    font-size: 1em;
+    margin-top: 11vw;
+    margin-right: -95vw;
+}
+#Move{
+    padding: 0.8vw 1.2vw;
+    background-color: rgb(255, 252, 252);
+    color: black;
+    border-radius: 2em;
+    border: none;
+    font-size: 1em;
+    margin-top: 11vw;
+    margin-right: -127.5vw;
+}
+#Explore{
+    padding: 0.8vw 1.2vw;
+    background-color: rgb(255, 252, 252);
+    color: black;
+    border-radius: 2em;
+    border: none;
+    font-size: 1em;
+    margin-top: 11vw;
+    margin-right: -163vw;
+}
+#Customise:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+
+#Shop:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+#Learn:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+#Celebrate:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+#Move:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+#Explore:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+#box-17{
+    height: 55vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* overflow-x: hidden; */
+}
+#Icons h1{
+    font-weight: 100;   
+    font-family: arial;
+    font-size: 1.3em;
+    margin-top: 4vw;
+    margin-left: 28vw;
+    color: rgb(71, 71, 71);
+}
+#Icons h2{
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 1.8vw;
+    margin-left:28vw;
+    font-size: 1.1em;
+    width: 40%;
+    color: grey;
+}
+#Shoes h1{
+    font-size: 1.3em;
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 4vw;
+    margin-left: 8vw;
+    color: rgb(71, 71, 71);
+
+}
+#Shoes h2{
+    font-family: arial;
+    font-weight: 100;
+    margin-top: 1.8vw;
+    margin-left: 8vw;
+    font-size: 1.2em;
+    width: 60%;
+    color: grey;
+}
+#Clothing h1{
+    font-size: 1.3em;
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 4vw;
+    margin-left: 7vw;
+    color: rgb(71, 71, 71);
+}
+#Clothing h2{
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 1.8vw;
+    margin-left: 7vw;
+    font-size: 1.2em;
+    width: 60%;
+    color: grey;
+}
+#Kids h1{
+    font-size: 1.3em;
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 4vw;
+    margin-left: 8vw;
+    color: rgb(71, 71, 71);
+}
+#Kids h2{
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 1.8vw;
+    margin-left: 8vw;
+    font-size: 1.2em;
+    width: 60%;
+    color: grey;
+}
+#box-18{
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* overflow-x: hidden; */
+}
+#Resources h1{
+    font-weight: 100;   
+    font-family: arial;
+    font-size: 1.3em;
+    margin-top: 4vw;
+    margin-left: 1vw;
+    color: rgb(71, 71, 71);
+}
+#Resources h2{
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 1.5vw;
+    margin-left:1vw;
+    font-size: 1em;
+    width: 90%;
+    color: grey;
+}
+#Help h1{
+    font-size: 1.3em;
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 4vw;
+    margin-left: 13vw;
+    color: rgb(71, 71, 71);
+
+}
+#Help h2{
+    font-family: arial;
+    font-weight: 100;
+    margin-top: 1.5vw;
+    margin-left: 13vw;
+    font-size: 1em;
+    width: 90%;
+    color: grey;
+}
+#Company h1{
+    font-size: 1.3em;
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 4vw;
+    margin-left: 13vw;
+    color: rgb(71, 71, 71);
+}
+#Company h2{
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 1.5vw;
+    margin-left: 13vw;
+    font-size: 1em;
+    width: 60%;
+    color: grey;
+}
+#box-19 {
+    height: 15vh;
+    width: 100%;
+}
+#bottom h5{
+    color: grey;
+    font-size: 1.1em;
+    font-family: arial;
+    margin-left: 1.5vw;
+    display: inline-block;
+}
+#iconi i{
+    display: none;
+}
+@media (max-width:640px) {
+
+    #nav1{
+        display: none;
+
+    }
+    #nav-2{
+        display: none;
+    }
+    #nav{
+        height: 7vh;
+        width: 100%;
+        display: none;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #nav #left img{
+        height: 10vh;
+        padding-left: 3vw;
+    }
+    #nav #right i{
+        font-size: 1.5em;
+        padding: 0.5vw;
+    }
+    #nav-3{
+        height: 70px;
+    }
+    #box-1{
+        height: 65vh;
+    }
+    #box-2 h1{
+        font-size: 1em;
+        text-align: left;
+        padding-left: 4vw;
+        padding-top: 2vw;
+    }
+    #box-2 h2{
+        width: 80vw;
+        font-size: 2em;
+        text-align: left;
+        padding-left: 4vw;
+        line-height: 10vw;
+    }
+    #box-2 h3{
+        font-size: 0.9em;
+        width: 80vw;
+        text-align: left;
+        padding-left: 4.5vw;
+        font-family: arial;
+        padding-top: 2vw;
+    }
+    #box-2 button{
+        padding: 2vw 3vw;
+        font-size: 0.8em;
+        margin-top: 100vw;
+        font-weight: bold;
+        margin-right: -13vw;
+        text-align: center;
+    }
+    #box-3 h1{
+        font-size: 1.5em;
+    }
+    .scroll-img{
+        margin: 0 1.8vw;
+        height: 70vh;
+    }
+    .scroll-img img {
+        width: 82vw;
+        height:59vh;
+    }
+    .scroll-text {
+        padding-right: 30vw;
+        padding-bottom: 1vw;
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .Sabrina{
+        padding-right: 64vw;
+        padding-bottom: 1vw;
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .Giannis{
+        padding-right: 60vw;
+        padding-bottom: 1vw;
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .Easy{
+        padding-right: 64vw;
+        padding-bottom: 1vw;
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        font-weight: bold;
+    }
+    button{
+        padding: 1.5vw 4vw;
+        border:2px solid black;
+        font-size: 0.6em;
+        font-weight: bold;
+        margin-top: 5vw;
+        margin-right: 1.5vw;
+    }
+    button:hover{
+        background-color: rgb(80, 80, 80);
+        color: rgb(255, 255, 255);
+    }
+    #box-5{
+        height: 23vw;
+    }
+    #box-5 h1{
+        font-size: 1.5em;
+        padding-left: 6.5vw;
+    }
+    #box-6{
+        display: flex;
+        white-space: nowrap;
+        width: 100%;
+        height: 100%;
+        overflow-y: hidden;
+        /* background-color: #f0f0f0; */
+        padding:4.5vw;
+    }
+    #pic6{
+        margin: 0 0.5vw;
+        position: relative;
+        text-align: center;
+    }
+    #pic6 img {
+        margin-top: -20vw;
+        width: 80vw;
+        height:49vh;
+    }
+    #box-7{
+        height: 12vh;
+    }
+    #box-7 h1{
+        font-size: 1.5em;
+        padding-left: 5vw;
+        margin-top: 19vw;
+    }
+    #box-8{
+        padding:3vw;
+    }
+    #pic8 img{
+        margin: 1.5vw;
+        margin-top: -6.5vw;
+        text-align: center;
+    }
+    #pic8 img {
+        width: 85vw;
+        height:46vh;
+    } 
+    .button8 button{
+        padding: 2.5vw 5vw;
+        font-size: 0.5em;
+        border-radius: 10vw;
+        border: none;
+        font-weight: 100;
+        margin-right: -6vw;
+        margin-top: -1vw;
+    }
+    #box-9{
+        height: 12vh;
+    }
+    #box-9 h1{
+        padding-left: 5vw;
+        font-size: 1.5em;
+        margin-top: 20vw;
+    }
+    #box-10{
+        padding:2vw;
+        padding-top: 1vw;
+        height: 110vw;
+    }
+    #pic10 img{
+        height: 45vh;
+        width: 80vw;
+        margin: 2.5vw;
+        margin-top: -1vw;
+    }
+    #text10 h1{
+        font-size: 0.8em;
+        font-weight: bold;
+        margin-left: 3vw;
+    }
+    #text10 p{
+        font-size: 0.8em;
+        margin-left: 3vw;
+        margin-top: 0.4em;
+    }
+    #text10 h2{
+        font-size: 0.8em;
+        font-weight: bold;
+        margin-left: 3vw;
+        margin-top: 1em;
+    }
+    #box-11{
+        display: none;
+    }
+    #box-13{
+        display: none;
+    }
+    #box-14{
+        display: none;
+    }
+    #box-13{
+        height: 40vh;
+        object-fit: cover;
+        width:92vw;
+        margin: 3vw;
+    }
+    #box-13 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    #box-14{
+        height: 25vh;
+    }
+    #box-14 h1{
+        font-size: 1em;
+        padding-top: 2vw;
+    }
+    #box-14 h2{
+        font-size: 1.5em;
+    }
+    #box-14 h3{
+        font-size: 0.9em;
+    }
+    .Shop{
+        padding: 2vw 5vw;
+        font-size: 1em;
+        font-weight: 100;
+        border-radius: 8em;
+        margin-top: 775vw;
+    }
+    #box-15{
+        height: 12vh;
+    }
+    #box-15 h1{
+        margin-top: 18vw;
+        font-size: 1.5em;
+        padding-left: 5vw;
+    }
+    #box-16{
+        padding:2vw;
+        width: 100vw;
+        padding-top: 1vw;
+        height: 110vw;
+    }
+    #pic16 img{
+        height: 60vh;
+        width: 80vw;
+        margin: 2.5vw;
+        margin-top: -1vw;
+    }
+    #pic16 h1{
+        font-size: 1em;
+        bottom: 35%;
+        margin-left: 10vw;
+        font-weight: bold;
+        font-weight: 100;
+    }
+    #pic16 h2{
+        font-size: 1.2em;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        font-family: arial;
+        bottom: 25%;
+        margin-left: 10vw;
+    }
+    #Customise{
+        padding: 2vw 4vw;
+        border-radius: 8em;
+        border: none;
+        font-weight: 100;
+        font-size: 0.9em;
+        margin-top: 35vw;
+        margin-right: -17vw;
+    }
+    #Shop{
+        padding: 2vw 4vw;
+        border-radius: 8em;
+        border: none;
+        font-weight: 100;
+        font-size: 0.9em;
+        margin-top: 35vw;
+        margin-right: -95vw;
+    }
+    #Learn{
+        padding: 2vw 4vw;
+        border-radius: 8em;
+        border: none;
+        font-weight: 100;
+        font-size: 0.9em;
+        margin-top: 35vw;
+        margin-right: -190vw;
+    }
+    #Celebrate{
+        padding: 2vw 4vw;
+        border-radius: 8em;
+        border: none;
+        font-weight: 100;
+        font-size: 0.9em;
+        margin-top: 35vw;
+        margin-right: -270vw;
+    }
+    #Move{
+        padding: 2vw 4vw;
+        border-radius: 8em;
+        border: none;
+        font-weight: 100;
+        font-size: 0.9em;
+        margin-top: 35vw;
+        margin-right: -350vw;
+    }
+    #Explore{
+        padding: 2vw 4vw;
+        border-radius: 8em;
+        border: none;
+        font-weight: 100;
+        font-size: 0.9em;
+        margin-top: 35vw;
+        margin-right: -435vw;
+    }
+    #box-17{
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    #Icons h1{
+        font-weight: bold;   
+        font-family: arial;
+        font-size: 1.3em;
+        margin-top: 6vw;
+        margin-left: 6vw;
+        color: rgb(0, 0, 0);
+    }
+    #Icons h2{
+        display: none;
+    }
+    #Shoes h1{
+        font-weight: bold;   
+        font-family: arial;
+        font-size: 1.3em;
+        margin-top: 6vw;
+        margin-left: 6vw;
+        color: rgb(0, 0, 0);
+    
+    }
+    #Shoes h2{
+        display: none;
+    }
+    #Clothing h1{
+        font-weight: bold;   
+        font-family: arial;
+        font-size: 1.3em;
+        margin-top: 6vw;
+        margin-left: 6vw;
+        color: rgb(0, 0, 0);
+    }
+    #Clothing h2{
+        display: none;
+    }
+    #Kids h1{
+        font-weight: bold;   
+        font-family: arial;
+        font-size: 1.3em;
+        margin-top: 6vw;
+        margin-left: 6vw;
+        color: rgb(0, 0, 0);
+    }
+    #Kids h2{
+        display: none;
+    }
+    #box-18{
+        height: 50vh;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        flex-direction: column;
+        padding-top: 0.1px;
+    }
+    #Resources h1{
+        font-weight: bold;   
+        font-size: 1em;
+        margin-left: -70vw;
+        color: rgb(0, 0, 0);
+        border-top: 2px solid rgb(197, 197, 197);
+        border-bottom: 2px solid rgb(197, 197, 197);
+        margin-top:40%;
+        text-align: center;
+        padding: 7vw;   
+
+    }
+    #Resources h2{
+        display: none;
+    }
+    #Help h1{
+        font-weight: bold;   
+        font-size: 1em;
+        margin-left: -80vw;
+        color: rgb(0, 0, 0);
+        margin-top: 3vw;
+        text-align: center;
+        border-bottom: 2px solid rgb(197, 197, 197);
+        padding: 6vw;
+    }
+    #Help h2{
+        display: none;
+    }
+    #Company h1{
+        font-weight: bold;   
+        font-size: 1em;
+        margin-left: -70vw;
+        color: rgb(0, 0, 0);
+        margin-top: 3vw;
+        text-align: center;
+        border-bottom: 2px solid rgb(197, 197, 197);
+        padding: 6vw;
+    }
+    #Company h2{
+        display: none;
+    }
+    #Resources #iconi i{
+        font-size: 3vw;
+    }
+    #box-19 {
+        height: 60vh;
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;    
+        width: 100%;
+        margin-top: 20vw;
+    }
+    #bottom h5{
+        color: rgb(88, 88, 88);
+        font-size: 1.1em;
+        font-family: arial;
+        margin-left: 4vw;
+        display: block;
+        padding: 3vw;
+    }
+}
